@@ -1,0 +1,44 @@
+.timer {
+    padding-top: 100px;
+    height: 500px;
+    background: url('../img/training.jpg') center ( center / cover ) no-repeat;
+    &__action {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+    }
+    &__numbers {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 85px;
+        color: $main-color;
+    }
+    hr {
+        width: 200px;
+        height: 2px;
+        border: none;
+        background-color: $main-color;
+        margin: 0 auto;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 250px;
+        height: 50px;
+        border-color: white;
+        color: $main-color;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid $main-color;
+        transition: 0.5s all;
+        &:hover {
+            background-color: $main-color;
+            box-shadow: 0 0 25px $main-color;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

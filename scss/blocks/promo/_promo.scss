@@ -1,0 +1,41 @@
+.promo {
+    padding-bottom: 30px;
+    height: 500px;
+    background: url('../img/main_bg.jpg') center ( center / cover ) no-repeat;
+    &__wrapper {
+        margin-top: 60px;
+        text-align: right;
+    }
+    &__header, &__descr, &__invite {
+        color: #fff;
+        font-size: 40px;
+    }
+    &__header {
+        span {
+            color: $main-color;
+        }
+    }
+    &__descr {
+        font-weight: normal;
+    }
+    &__invite {
+        margin-top: 50px;
+        font-weight: normal;
+    }
+    &__button {
+        margin-top: 25px;
+        width: 250px;
+        height: 50px;
+        border-color: white;
+        color: white;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        transition: 0.5s all;
+        &:hover {
+            background-color: $main-color;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

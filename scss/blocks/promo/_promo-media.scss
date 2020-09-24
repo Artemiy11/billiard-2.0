@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+    .promo {
+        &__wrapper {
+            text-align: center;
+            margin-top: 30px;
+        }
+        &__invite {
+            margin-top: 65px;
+            font-size: 27px;
+        }
+    }
+}

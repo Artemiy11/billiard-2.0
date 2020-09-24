@@ -1,0 +1,39 @@
+.feedbacks {
+    min-height: 900px;
+    background-color: $dark;
+    padding-bottom: 30px;
+    .container {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: repeat(4, 180px);
+        row-gap: 30px;
+    }
+    &__feedback {
+        display: grid;
+        grid-template-columns: 180px auto;
+        grid-template-rows: minmax(180px, auto);
+        column-gap: 15px;
+    }
+    &__img-wrapper {
+        width: 180px;
+        height: 180px;
+        img {
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+    &__text {
+        span {
+            display: block;
+            color: $main-color;
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        align-self: center;
+        color: #fff;
+        font-weight: 300;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    .feedbacks {
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .feedbacks {
+        &__feedback {
+            grid-template-columns: auto;
+            grid-template-rows: minmax(180px, auto) auto;
+            row-gap: 10px;
+            align-self: center;
+        }
+        &__img-wrapper {
+            margin: 0 auto;
+        }
+        &__text {
+            align-self: start;
+            span {
+                text-align: center;
+            };
+        }
+    }
+}

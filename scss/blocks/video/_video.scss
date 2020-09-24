@@ -1,0 +1,13 @@
+.video {
+    height: 560px;
+    background-color: $dark;
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    &__content {
+        margin-top: 20px;
+        width: 800px;
+        height: 400px;
+    }
+}

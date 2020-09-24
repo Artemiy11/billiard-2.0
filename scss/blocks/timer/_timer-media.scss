@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+    .timer {
+        height: 400px;
+        padding-top: 0;
+        &__numbers {
+            font-size: 70px;
+        }
+    }
+}

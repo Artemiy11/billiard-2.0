@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+    .modal {
+        width: 770px;
+        height: 445px;
+    }
+}
+
+@media (max-width: 992px) {
+    .modal {
+        width: 560px;
+        height: 475px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 415px;
+        height: 500px;
+        &__header {
+            font-size: 28px;
+        }
+        &__input {
+            width: 100%;
+        }
+        &__button {
+            width: 102%;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .modal {
+        width: 230px;
+        height: 465px;
+        .container {
+            padding-top: 20px;
+        }
+        &__close {
+            right: -30px;
+            font-size: 60px;
+            line-height: 20px;
+        }
+        &__header {
+            height: 50px;
+            font-size: 20px;
+        }
+        &__header-text {
+            font-size: 18px;
+        }
+    }
+}

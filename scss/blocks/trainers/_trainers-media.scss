@@ -1,0 +1,94 @@
+@media (max-width: 1200px) {
+    .trainers {
+        height: 700px;
+        &__slider {
+            width: 755px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .trainers {
+        height: 630px;
+        .arrow-left-5,
+        .arrow-right-5,
+        .arrow-top-5,
+        .arrow-bottom-5 {
+            display: block;
+        }
+        &__slider {
+            width: 700px;
+            &-next, &-prev {
+                z-index: 1;
+                top: 14px;
+                right: 0;
+                width: 60px;
+                height: 97%;
+                background-color: #000;
+                opacity: 0.5;
+                &:hover {
+                    opacity: 0.6;
+                }
+                svg {
+                    &:hover {
+                        path {
+                            fill: transparent;
+                        }
+                    }
+                    path {
+                        fill: transparent;
+                    }
+                }
+            }
+            &-prev {
+                left: 0;
+                svg {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .trainers {
+        height: 510px;
+        &__slider {
+            width: 495px;
+            &-next, &-prev {
+                svg {
+                    top: 33%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .trainers {
+        height: 320px;
+        &__slider {
+            margin-top: 20px;
+            width: 258px;
+            &-prev, &-next {
+                width: 33px;
+                height: 93%;
+                svg {
+                    top: 28%;
+                }
+            }
+        }
+    }
+    .arrow-left-5,
+    .arrow-right-5,
+    .arrow-top-5,
+    .arrow-bottom-5 {
+        display: none;
+        position: absolute;
+        top: 37%;
+        left: -17px;
+        margin: 20px 8px;
+        width: 50px;
+        height: 50px;
+    }
+}

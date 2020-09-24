@@ -1,0 +1,8 @@
+@media (max-width: 576px) {
+    .video {
+        height: 400px;
+        &__content {
+            height: 240px;
+        }
+    }
+}
